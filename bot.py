@@ -3,7 +3,6 @@ from langchain_community.document_loaders import PyPDFLoader, TextLoader, Docx2t
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import os
 from langchain_community.embeddings import OpenAIEmbeddings
-from langchain_openai import OpenAIEmbeddings
 import openai
 from langchain.prompts.prompt import PromptTemplate
 from langchain_community.chat_models import ChatOpenAI
