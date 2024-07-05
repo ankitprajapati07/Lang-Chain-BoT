@@ -1,3 +1,5 @@
-streamlit
-langchain
-python
+streamlit==1.32.2
+langchain==0.2.6
+python==3.11.2
+langchain-community==0.2.6
+openai==1.35.10
