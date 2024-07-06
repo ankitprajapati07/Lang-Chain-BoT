@@ -70,7 +70,10 @@ def create_chatbot(doc):
 
 
 st.title("Lang-Chain ChatBot📃🤖")
-openai.api_key = st.secrets.openai_api_key
+
+# if you trying this on local env, you dont need this below line.
+#openai.api_key = st.secrets.openai_api_key
+
 # three type of file can be uploaded : pdf, doc, text
 uploaded_file = st.file_uploader("Upload a PDF, DOC/DOCX, or TXT file", type=['pdf', 'docx', 'doc', 'txt'])
 
